@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <link rel="stylesheet" href="estilos/mobileFewChanges.css">
+
+</head>
+<body>
+
+  <main>
+    <section class="rate">
+      <img src="images/icon-star.svg" alt="" id="icone-estrela">
+      <h1>How did we do?</h1>
+      <p> 
+        Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!
+      </p>
+      <ul>
+          <li class="nota" id="um">1</li>
+          <li class="nota">2</li>
+          <li class="nota">3</li>
+          <li class="nota">4</li>
+          <li class="nota">5</li>
+        </ul>
+     <button id="botao">Submit</button>
+    </section>
+
+    <section class="thank">
+      <img src="images/illustration-thank-you.svg" alt="" id="thank-ilustrator">
+      <p id="resultado">You selected <span id="notaFinal"></span> out of 5</p>
+      <h1>Thank you!</h1>
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!
+      </p>
+    </section>
+    
+ </main>
+
+  <script src="avaliação.js"></script>
+  
+</body>
+</html>
